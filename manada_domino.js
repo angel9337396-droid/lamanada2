@@ -8,14 +8,14 @@ const highScoreReaction = document.getElementById("high-score-reaction");
 const highScoreVideo = highScoreReaction.querySelector("video");
 const REACTION_CHANCE = 0.5;
 const scoreBackgrounds = [
-  { id: "score-bg-1", name: "Fondo 1", image: "fondos/marcador-fondo-1.webp", preview: "fondos/marcador-fondo-1-mini.webp" },
-  { id: "score-bg-2", name: "Fondo 2", image: "fondos/marcador-fondo-2.webp", preview: "fondos/marcador-fondo-2-mini.webp" },
-  { id: "score-bg-3", name: "Fondo 3", image: "fondos/marcador-fondo-3.webp", preview: "fondos/marcador-fondo-3-mini.webp" },
-  { id: "score-bg-4", name: "Fondo 4", image: "fondos/marcador-fondo-4.webp", preview: "fondos/marcador-fondo-4-mini.webp" },
-  { id: "score-bg-5", name: "Fondo 5", image: "fondos/marcador-fondo-5.webp", preview: "fondos/marcador-fondo-5-mini.webp" },
-  { id: "score-bg-6", name: "Fondo 6", image: "fondos/marcador-fondo-6.webp", preview: "fondos/marcador-fondo-6-mini.webp" },
-  { id: "score-bg-7", name: "Fondo 7", image: "fondos/marcador-fondo-7.webp", preview: "fondos/marcador-fondo-7-mini.webp" },
-  { id: "score-bg-8", name: "Fondo 8", image: "fondos/marcador-fondo-8.webp", preview: "fondos/marcador-fondo-8-mini.webp" }
+  { id: "score-bg-1", name: "Fondo 1", image: "marcador-fondo-1.webp", preview: "marcador-fondo-1-mini.webp" },
+  { id: "score-bg-2", name: "Fondo 2", image: "marcador-fondo-2.webp", preview: "marcador-fondo-2-mini.webp" },
+  { id: "score-bg-3", name: "Fondo 3", image: "marcador-fondo-3.webp", preview: "marcador-fondo-3-mini.webp" },
+  { id: "score-bg-4", name: "Fondo 4", image: "marcador-fondo-4.webp", preview: "marcador-fondo-4-mini.webp" },
+  { id: "score-bg-5", name: "Fondo 5", image: "marcador-fondo-5.webp", preview: "marcador-fondo-5-mini.webp" },
+  { id: "score-bg-6", name: "Fondo 6", image: "marcador-fondo-6.webp", preview: "marcador-fondo-6-mini.webp" },
+  { id: "score-bg-7", name: "Fondo 7", image: "marcador-fondo-7.webp", preview: "marcador-fondo-7-mini.webp" },
+  { id: "score-bg-8", name: "Fondo 8", image: "marcador-fondo-8.webp", preview: "marcador-fondo-8-mini.webp" }
 ];
 const initialState = {
   setup: { names: ["Equipo 1", "Equipo 2"], target: 150 },
