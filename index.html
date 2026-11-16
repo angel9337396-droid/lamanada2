@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#40131e">
+  <meta name="description" content="Marcador sencillo para partidas de dominó entre dos equipos.">
+  <title>Dominó — Marcador</title>
+  <link rel="stylesheet" href="manada_domino.css">
+</head>
+<body>
+  <main class="app-shell" id="app">
+    <div class="loading" role="status">Cargando marcador…</div>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="reactions">
+    <div class="reaction" id="small-score-reaction" role="status" aria-live="polite" hidden>
+      <img data-src="tan-chin.png" alt="">
+      <span>Tan chin</span>
+    </div>
+    <div class="reaction video-reaction" id="high-score-reaction" role="status" aria-label="Video por una mano de más de 60 puntos" hidden>
+      <video src="sergio-2s.mp4" muted playsinline loop preload="none"></video>
+    </div>
+  </div>
+  <script src="manada_domino.js"></script>
+</body>
+</html>
